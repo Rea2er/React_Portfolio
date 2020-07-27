@@ -78,8 +78,8 @@
     letter-spacing: 0.05em;
     margin: 1.5em 1em 0 0;
     border-radius: 10px;
+    padding: 8px;
     background-color: #d8f6e1;
-    padding: 5px;
     color: #54ad7d;
     align-self: start;
   }
@@ -91,7 +91,7 @@
   }
 }
 
-.item-1 {
+.project-primary {
   @media only screen and (min-width: 1200px) {
     grid-column: 1 / span 2;
 

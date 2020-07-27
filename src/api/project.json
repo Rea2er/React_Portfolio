@@ -1,0 +1,68 @@
+{
+  "primary": [
+    {
+      "title": "International Artist Feature: Malaysia",
+      "skills": [
+        { "name": "React", "bgColor": "#d8f6e1", "color": "#54ad7d" },
+        { "name": "MongoDB", "bgColor": "#BEE3F8", "color": "#4299E1" },
+        { "name": "React Native", "bgColor": "#FEEBC8", "color": "#ED8936" },
+        { "name": "Node", "bgColor": "#FED7E2", "color": "#ED64A6" }
+      ],
+      "image": "url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/flex-1.jpg)"
+    }
+  ],
+  "secondary": [
+    {
+      "title": "How to Conduct Remote Usability Testing",
+      "description": "We’ll be putting things together so that as you scroll down from the top of the page you’ll see an “Alien Lander” making its way to touch down.",
+      "skills": [
+        { "name": "MongoDB", "bgColor": "#FEFCBF", "color": "#ECC94B" },
+        { "name": "MongoDB", "bgColor": "#BEE3F8", "color": "#4299E1" }
+      ],
+      "image": "url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/users-2.png)"
+    },
+    {
+      "title": "Created by You, July Edition",
+      "description": "Welcome to our monthly feature of fantastic tutorial results created by you, the Envato Tuts+ community!",
+      "skills": [
+        { "name": "Express", "bgColor": "#E9D8FD", "color": "#9F7AEA" },
+        { "name": "Node", "bgColor": "#FED7E2", "color": "#ED64A6" }
+      ],
+      "image": "url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/flex-5.jpg)"
+    }
+  ],
+  "third": [
+    {
+      "title": "How to Code a Scrolling “Alien Lander” Website",
+      "skills": [
+        { "name": "React Native", "bgColor": "#EDF2F7", "color": "#A0AEC0" },
+        { "name": "MongoDB", "bgColor": "#BEE3F8", "color": "#4299E1" }
+      ],
+      "image": "url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/landing.png)"
+    },
+    {
+      "title": "How to Create a “Stranger Things” Text Effect in Adobe Photoshop",
+      "skills": [
+        { "name": "React Native", "bgColor": "#d8f6e1", "color": "#54ad7d" },
+        { "name": "MongoDB", "bgColor": "#FED7D7", "color": "#F56565" }
+      ],
+      "image": "url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/strange.jpg)"
+    },
+    {
+      "title": "5 Inspirational Business Portraits and How to Make Your Own",
+      "skills": [
+        { "name": "React Native", "bgColor": "#FEEBC8", "color": "#ED8936" },
+        { "name": "MongoDB", "bgColor": "#FEFCBF", "color": "#ECC94B" }
+      ],
+      "image": "url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/flor.jpg)"
+    },
+    {
+      "title": "Notes From Behind the Firewall: The State of Web Design in China",
+      "skills": [
+        { "name": "React Native", "bgColor": "#B2F5EA", "color": "#38B2AC" },
+        { "name": "Node", "bgColor": "#FED7E2", "color": "#ED64A6" }
+      ],
+      "image": "url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/china.png)"
+    }
+  ]
+}
