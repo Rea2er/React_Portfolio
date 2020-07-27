@@ -4,6 +4,7 @@ import React from "react";
 import "./App.scss";
 import Project from "./components/Project";
 import Education from "./components/Education";
+import Skills from "./components/Skills";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       {/* <Navbar /> */}
       {/* <Banner /> */}
       <Education />
+      <Skills />
       <Project />
     </>
   );

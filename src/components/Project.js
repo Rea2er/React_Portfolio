@@ -5,7 +5,7 @@ import projects from "../api/project.json";
 const primaryProject = () => {
   return projects.primary.map((item, index) => (
     <div key={index} className="project-primary">
-      <a href="#" className="project-card">
+      <a href="localhost:3000" className="project-card">
         <div
           className="thumb"
           style={{
@@ -33,7 +33,7 @@ const primaryProject = () => {
 const secondaryProject = () => {
   return projects.secondary.map((item, index) => (
     <div key={index}>
-      <a href="#" className="project-card">
+      <a href="localhost:3000" className="project-card">
         <div
           className="thumb"
           style={{
@@ -62,7 +62,7 @@ const secondaryProject = () => {
 const thirdProject = () => {
   return projects.third.map((item, index) => (
     <div key={index}>
-      <a href="#" className="project-card">
+      <a href="localhost:3000" className="project-card">
         <div
           className="thumb"
           style={{
