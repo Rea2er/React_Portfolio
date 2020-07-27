@@ -12,7 +12,7 @@
 .skills-wrapper {
   width: 90%;
   max-width: 1240px;
-  margin: 0 auto;
+  margin: 80px auto;
 }
 
 $dark: #1f2426;
@@ -23,31 +23,6 @@ $lightBlue: #519ca4;
 $blue: #2196a7;
 $darkBlue: #307982;
 $darkestBlue: #215961;
-
-.full-qual {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.third-qual {
-  width: 70%;
-  float: left;
-  margin-right: 5%;
-}
-
-.quarter-qual {
-  width: 25%;
-  float: left;
-}
-
-.qual {
-  margin: 80px 0;
-
-  hr {
-    margin: 0 auto;
-    width: 100%;
-  }
-}
 
 .data {
   height: 200px;
@@ -84,9 +59,30 @@ $darkestBlue: #215961;
   border-bottom: 200px solid $blue;
 }
 
+#item8 {
+  z-index: 1;
+  right: 300px;
+  border-left: 400px solid transparent;
+  border-right: 400px solid transparent;
+  border-bottom: 180px solid $lightBlue;
+  h5 {
+    position: absolute;
+    left: -30px;
+  }
+}
+
 #item2 {
   z-index: 5;
   right: 50px;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  opacity: 0.5;
+  border-bottom: 50px solid $lightestBlue;
+}
+
+#item9 {
+  z-index: 5;
+  right: 150px;
   border-left: 100px solid transparent;
   border-right: 100px solid transparent;
   opacity: 0.5;
@@ -126,12 +122,12 @@ $darkestBlue: #215961;
   border-left: 75px solid transparent;
   border-right: 75px solid transparent;
   opacity: 0.5;
-  border-bottom: 7.5px solid $lightestBlue;
+  border-bottom: 37.5px solid $lightestBlue;
 
   h5 {
     text-align: right;
     position: absolute;
-    left: -65px;
+    left: -35px;
     bottom: 70px;
   }
 
@@ -168,11 +164,17 @@ $darkestBlue: #215961;
   h5 {
     text-align: right;
     position: absolute;
-    left: -67px;
+    left: -80px;
     bottom: 30px;
   }
 
   span {
     line-height: 40px;
   }
+}
+
+.skills-field {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
 }
