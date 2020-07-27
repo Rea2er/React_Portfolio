@@ -1,37 +1,37 @@
-html {
-  background: #f5f7f8;
+.project-container {
   font-family: system-ui;
-  -webkit-font-smoothing: antialiased;
-  padding: 20px 0;
 }
 
-header {
+.project-header {
   width: 90%;
   max-width: 1240px;
   margin: 0 auto;
+  padding-bottom: 20px;
 }
 
-.band {
+.project-wrapper {
   width: 90%;
   max-width: 1240px;
   margin: 0 auto;
 
   display: grid;
-
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
   grid-gap: 20px;
 
-  @media (min-width: 30em) {
+  @media only screen and (min-width: 480px) and (max-width: 1200px) {
     grid-template-columns: 1fr 1fr;
+    .project-card {
+      p {
+        display: none;
+      }
+    }
   }
 
-  @media (min-width: 60em) {
+  @media only screen and (min-width: 1200px) {
     grid-template-columns: repeat(4, 1fr);
   }
 }
 
-.card {
+.project-card {
   background: white;
   text-decoration: none;
   color: #444;
@@ -40,13 +40,12 @@ header {
   flex-direction: column;
   min-height: 100%;
 
-  // sets up hover state
   position: relative;
   top: 0;
   transition: all 0.1s ease-in;
 
   &:hover {
-    top: -2px;
+    top: -5px;
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
   }
 
@@ -70,13 +69,19 @@ header {
     line-height: 1.4;
   }
 
+  .project-skills {
+    display: flex;
+  }
+
   span {
     font-size: 12px;
-    font-weight: bold;
-    color: #999;
-    text-transform: uppercase;
     letter-spacing: 0.05em;
-    margin: 2em 0 0 0;
+    margin: 1.5em 1em 0 0;
+    border-radius: 10px;
+    background-color: #d8f6e1;
+    padding: 5px;
+    color: #54ad7d;
+    align-self: start;
   }
 
   .thumb {
@@ -87,7 +92,7 @@ header {
 }
 
 .item-1 {
-  @media (min-width: 60em) {
+  @media only screen and (min-width: 1200px) {
     grid-column: 1 / span 2;
 
     h1 {

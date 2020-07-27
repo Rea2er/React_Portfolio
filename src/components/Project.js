@@ -3,18 +3,19 @@ import "./Project.scss";
 
 const Project = () => {
   return (
-    <div>
-      <header>
-        <h1>Cool Articles</h1>
+    <div className="project-container">
+      <header className="project-header">
+        <h1>Projects</h1>
+        <hr />
       </header>
-      <div class="band">
-        <div class="item-1">
+      <div className="project-wrapper">
+        <div className="item-1">
           <a
             href="https://design.tutsplus.com/articles/international-artist-feature-malaysia--cms-26852"
-            class="card"
+            className="project-card"
           >
             <div
-              class="thumb"
+              className="thumb"
               style={{
                 backgroundImage:
                   "url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/flex-1.jpg)",
@@ -22,17 +23,20 @@ const Project = () => {
             ></div>
             <article>
               <h1>International Artist Feature: Malaysia</h1>
-              <span>Mary Winkler</span>
+              <div className="project-skills">
+                <span># Mary Winkler</span>
+                <span># Mary Winkler</span>
+              </div>
             </article>
           </a>
         </div>
-        <div class="item-2">
+        <div className="item-2">
           <a
             href="https://webdesign.tutsplus.com/articles/how-to-conduct-remote-usability-testing--cms-27045"
-            class="card"
+            className="project-card"
           >
             <div
-              class="thumb"
+              className="thumb"
               style={{
                 backgroundImage:
                   "url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/users-2.png)",
@@ -40,17 +44,22 @@ const Project = () => {
             ></div>
             <article>
               <h1>How to Conduct Remote Usability Testing</h1>
+              <p>
+                We’ll be putting things together so that as you scroll down from
+                the top of the page you’ll see an “Alien Lander” making its way
+                to touch down.
+              </p>
               <span>Harry Brignull</span>
             </article>
           </a>
         </div>
-        <div class="item-3">
+        <div className="item-3">
           <a
             href="https://design.tutsplus.com/articles/envato-tuts-community-challenge-created-by-you-july-edition--cms-26724"
-            class="card"
+            className="project-card"
           >
             <div
-              class="thumb"
+              className="thumb"
               style={{
                 backgroundImage:
                   "url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/flex-5.jpg)",
@@ -66,13 +75,13 @@ const Project = () => {
             </article>
           </a>
         </div>
-        <div class="item-4">
+        <div className="item-4">
           <a
             href="https://webdesign.tutsplus.com/tutorials/how-to-code-a-scrolling-alien-lander-website--cms-26826"
-            class="card"
+            className="project-card"
           >
             <div
-              class="thumb"
+              className="thumb"
               style={{
                 backgroundImage:
                   "url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/landing.png)",
@@ -80,22 +89,17 @@ const Project = () => {
             ></div>
             <article>
               <h1>How to Code a Scrolling “Alien Lander” Website</h1>
-              <p>
-                We’ll be putting things together so that as you scroll down from
-                the top of the page you’ll see an “Alien Lander” making its way
-                to touch down.
-              </p>
               <span>Kezz Bracey</span>
             </article>
           </a>
         </div>
-        <div class="item-5">
+        <div className="item-5">
           <a
             href="https://design.tutsplus.com/tutorials/stranger-things-inspired-text-effect--cms-27139"
-            class="card"
+            className="project-card"
           >
             <div
-              class="thumb"
+              className="thumb"
               style={{
                 backgroundImage:
                   "url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/strange.jpg)",
@@ -109,13 +113,13 @@ const Project = () => {
             </article>
           </a>
         </div>
-        <div class="item-6">
+        <div className="item-6">
           <a
             href="https://photography.tutsplus.com/articles/5-inspirational-business-portraits-and-how-to-make-your-own--cms-27338"
-            class="card"
+            className="project-card"
           >
             <div
-              class="thumb"
+              className="thumb"
               style={{
                 backgroundImage:
                   "url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/flor.jpg)",
@@ -130,13 +134,13 @@ const Project = () => {
             </article>
           </a>
         </div>
-        <div class="item-7">
+        <div className="item-7">
           <a
             href="https://webdesign.tutsplus.com/articles/notes-from-behind-the-firewall-the-state-of-web-design-in-china--cms-22281"
-            class="card"
+            className="project-card"
           >
             <div
-              class="thumb"
+              className="thumb"
               style={{
                 backgroundImage:
                   "url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/china.png)",
