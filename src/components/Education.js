@@ -12,51 +12,52 @@ const Education = () => {
         <ul className="timeline">
           <li>
             <div className="timeline-info">
-              <span>March 12, 2016</span>
+              <span>Anticipate Dec 2020 | Halifax, NS, CA</span>
             </div>
           </li>
           <li className="timeline-item">
             <div className="timeline-round"></div>
 
-            <h3 className="timeline-title">Event Title</h3>
+            <h3 className="timeline-title">DALHOUSIE UNIVERSITY</h3>
             <p>
-              Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a,
-              consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam
-              ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero
-              venenatis faucibus. ullam dictum felis eu pede mollis pretium.
-              Pellentesque ut neque.
+              Faulty of Computer Science <br /> Master Degree in Applied
+              Computer Science
+              <br />
+              Average grade of A in all courses
             </p>
           </li>
+
           <li className="timeline-item">
-            <h3 className="timeline-title">Event Title</h3>
+            <h3 className="timeline-title">DALHOUSIE UNIVERSITY</h3>
             <p>
-              Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a,
-              consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam
-              ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero
-              venenatis faucibus. ullam dictum felis eu pede mollis pretium.
-              Pellentesque ut neque.
+              Agricultural Campus
+              <br />
+              Bachelar Degree in Plant Science
+              <br />
+              Two times in Dean’s List
             </p>
           </li>
           <li>
             <div className="timeline-round"></div>
             <div className="timeline-info">
-              <span>March 23, 2016</span>
+              <span>Dec 2018 | Truro, NS, CA</span>
             </div>
           </li>
           <li>
             <div className="timeline-info">
-              <span>April 02, 2016</span>
+              <span>Sept 2016 | Fuzhou, FJ, CN</span>
             </div>
           </li>
           <li className="timeline-item">
             <div className="timeline-round"></div>
-            <h3 className="timeline-title">Event Title</h3>
+            <h3 className="timeline-title">
+              FUJIAN AGRICULTURE AND FORESTRY UNIVERSITY
+            </h3>
             <p>
-              Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a,
-              consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam
-              ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero
-              venenatis faucibus. ullam dictum felis eu pede mollis pretium.
-              Pellentesque ut neque.
+              Faulty of Horticulture <br />
+              Bechelar Degree in Horticulture
+              <br />
+              China Scholarship Council (CSC) scholarships
             </p>
           </li>
         </ul>

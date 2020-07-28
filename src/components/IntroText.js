@@ -8,11 +8,12 @@ const IntroText = () => {
         <div id="preview">
           <div id="corner-tl" class="corner"></div>
           <div id="corner-tr" class="corner"></div>
-          <h2>Who I am</h2>
+          <h2>What I am looking for</h2>
           <p>
-            Here is some text which will contain some links for you to hover and
-            see how nice a <a href="/">cubic-bezier</a>. If you wanna find out
-            more about this transition effect then just click its link above.
+            I am looking for a <a href="/">challenging role</a> in an
+            organization to utilize my technical, database, and management
+            skills for the growth of the organization as well as to enhance my
+            knowledge about new and emerging trends in the IT sector.
           </p>
           <div id="corner-br" class="corner"></div>
           <div id="corner-bl" class="corner"></div>
