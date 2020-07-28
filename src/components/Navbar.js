@@ -11,18 +11,18 @@ const Navbar = () => {
           </a>
         </li>
         <li className="nav-li">
-          <a className="nav-a" href="localhost:3000">
-            Level 1
+          <a className="nav-a" href="#education">
+            Education
           </a>
         </li>
         <li className="nav-li">
-          <a className="nav-a" href="localhost:3000">
-            Level 2
+          <a className="nav-a" href="#skills">
+            Skills
           </a>
         </li>
         <li className="nav-li">
-          <a className="nav-a" href="localhost:3000">
-            Level 3
+          <a className="nav-a" href="#projects">
+            Projects
           </a>
         </li>
       </ol>

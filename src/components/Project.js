@@ -89,7 +89,7 @@ const thirdProject = () => {
 
 const Project = () => {
   return (
-    <div className="project-container">
+    <div id="projects" className="project-container">
       <header className="project-header">
         <h1>Projects</h1>
         <hr />

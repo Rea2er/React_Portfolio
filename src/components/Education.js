@@ -3,7 +3,7 @@ import "./Education.scss";
 
 const Education = () => {
   return (
-    <div className="education-container">
+    <div id="education" className="education-container">
       <header className="education-header">
         <h1>Education</h1>
         <hr />

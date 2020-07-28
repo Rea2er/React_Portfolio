@@ -1,0 +1,35 @@
+.social-share {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-container {
+  width: 15%;
+  height: 30px;
+  padding: 1px 0px;
+  min-width: 68px;
+  margin: 2% 0.8%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  border-radius: 3px;
+
+  a {
+    text-decoration: none;
+  }
+
+  img {
+    width: 28px;
+    position: relative;
+    left: 32%;
+  }
+
+  &.facebook {
+    background: #527ebf;
+  }
+  &.linkedin {
+    background: #147bb7;
+  }
+  &.github {
+    background: #000000;
+  }
+}

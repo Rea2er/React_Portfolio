@@ -1,0 +1,62 @@
+.wrapper {
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper p {
+  color: #9a9a9a;
+  margin: 0;
+  padding-bottom: 20px;
+  font-size: 16px;
+}
+
+.wrapper p a {
+  position: relative;
+  text-decoration: none;
+  color: #ec407a;
+}
+
+#preview-shadow {
+  background-color: #f0ead6;
+  max-width: 400px;
+  height: 180px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+#preview {
+  width: 400px;
+  border: 1.5px solid #17a2b8;
+  background-color: rgba(251, 249, 243, 0.8);
+  padding: 15px;
+  position: relative;
+}
+
+.corner {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  border: 1.5px solid #17a2b8;
+  background-color: #fff;
+  position: absolute;
+}
+
+#corner-tl {
+  top: -5px;
+  left: -5px;
+}
+
+#corner-tr {
+  top: -5px;
+  right: -5px;
+}
+
+#corner-br {
+  bottom: -5px;
+  right: -5px;
+}
+
+#corner-bl {
+  bottom: -5px;
+  left: -5px;
+}
