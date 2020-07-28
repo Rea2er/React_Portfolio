@@ -5,6 +5,7 @@ import "./App.scss";
 import Project from "./components/Project";
 import Education from "./components/Education";
 import Skills from "./components/Skills";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Education />
       <Skills />
       <Project />
+      <Contact />
     </>
   );
 };
