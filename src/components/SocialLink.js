@@ -29,10 +29,7 @@ const SocialLink = () => {
       <div className="social-container github">
         <a href="localhost:5000">
           <div className="social-block">
-            <img
-              src="https://www.iconsdb.com/icons/preview/white/github-11-xxl.png"
-              alt="github"
-            />
+            <img src={require("../images/github.png")} alt="github" />
           </div>
         </a>
       </div>

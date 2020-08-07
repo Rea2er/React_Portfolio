@@ -1,68 +1,68 @@
 {
   "primary": [
     {
-      "title": "International Artist Feature: Malaysia",
+      "title": "FindAbode - Apartment Rental Site",
       "skills": [
         { "name": "React", "bgColor": "#d8f6e1", "color": "#54ad7d" },
         { "name": "MongoDB", "bgColor": "#BEE3F8", "color": "#4299E1" },
-        { "name": "React Native", "bgColor": "#FEEBC8", "color": "#ED8936" },
+        { "name": "Express", "bgColor": "#FEEBC8", "color": "#ED8936" },
         { "name": "Node", "bgColor": "#FED7E2", "color": "#ED64A6" }
       ],
-      "image": "url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/flex-1.jpg)"
+      "image": "url(https://tutorial16-group16.herokuapp.com/static/media/launch.30045daa.png)"
     }
   ],
   "secondary": [
     {
-      "title": "How to Conduct Remote Usability Testing",
-      "description": "We’ll be putting things together so that as you scroll down from the top of the page you’ll see an “Alien Lander” making its way to touch down.",
+      "title": "Group Formation Tool",
+      "description": "Group formation tools which can help the instructor to distribute the group based on some criterias.",
       "skills": [
-        { "name": "MongoDB", "bgColor": "#FEFCBF", "color": "#ECC94B" },
-        { "name": "MongoDB", "bgColor": "#BEE3F8", "color": "#4299E1" }
+        { "name": "Java", "bgColor": "#FEFCBF", "color": "#ECC94B" },
+        { "name": "SpringBoot", "bgColor": "#BEE3F8", "color": "#4299E1" }
       ],
-      "image": "url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/users-2.png)"
+      "image": "url(https://image.freepik.com/free-vector/illustration-with-group-people_23-2148466800.jpg)"
     },
     {
-      "title": "Created by You, July Edition",
-      "description": "Welcome to our monthly feature of fantastic tutorial results created by you, the Envato Tuts+ community!",
+      "title": "Coding City",
+      "description": "An andriod app to teach the programmer how to code.",
       "skills": [
         { "name": "Express", "bgColor": "#E9D8FD", "color": "#9F7AEA" },
         { "name": "Node", "bgColor": "#FED7E2", "color": "#ED64A6" }
       ],
-      "image": "url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/flex-5.jpg)"
+      "image": "url(https://www.techopedia.com/images/uploads/6e13a6b3-28b6-454a-bef3-92d3d5529007.jpeg)"
     }
   ],
   "third": [
     {
-      "title": "How to Code a Scrolling “Alien Lander” Website",
+      "title": "Youtube Clone",
       "skills": [
-        { "name": "React Native", "bgColor": "#EDF2F7", "color": "#A0AEC0" },
-        { "name": "MongoDB", "bgColor": "#BEE3F8", "color": "#4299E1" }
+        { "name": "React", "bgColor": "#EDF2F7", "color": "#A0AEC0" },
+        { "name": "Sass", "bgColor": "#BEE3F8", "color": "#4299E1" }
       ],
-      "image": "url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/landing.png)"
+      "image": "url(https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/42/58/4a/42584aa3-6c7d-590c-d0b9-e02b81cb1a89/logo_youtube_color-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png)"
     },
     {
-      "title": "How to Create a “Stranger Things” Text Effect in Adobe Photoshop",
+      "title": "Mobile Game Store",
       "skills": [
         { "name": "React Native", "bgColor": "#d8f6e1", "color": "#54ad7d" },
-        { "name": "MongoDB", "bgColor": "#FED7D7", "color": "#F56565" }
+        { "name": "Styled Component", "bgColor": "#FED7D7", "color": "#F56565" }
       ],
-      "image": "url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/strange.jpg)"
+      "image": "url(https://img.freepik.com/free-vector/shop-building-vector-icon-illustration-building-landmark-icon-concept_138676-428.jpg?size=626&ext=jpg)"
     },
     {
-      "title": "5 Inspirational Business Portraits and How to Make Your Own",
+      "title": "Blogg Share",
       "skills": [
-        { "name": "React Native", "bgColor": "#FEEBC8", "color": "#ED8936" },
-        { "name": "MongoDB", "bgColor": "#FEFCBF", "color": "#ECC94B" }
+        { "name": "React", "bgColor": "#FEEBC8", "color": "#ED8936" },
+        { "name": "Redux", "bgColor": "#FEFCBF", "color": "#ECC94B" }
       ],
-      "image": "url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/flor.jpg)"
+      "image": "url(https://assets.materialup.com/uploads/f6eda650-21ad-4201-8cdd-2ad60fb70ef7/preview.png)"
     },
     {
-      "title": "Notes From Behind the Firewall: The State of Web Design in China",
+      "title": "Comming Soon ...",
       "skills": [
         { "name": "React Native", "bgColor": "#B2F5EA", "color": "#38B2AC" },
         { "name": "Node", "bgColor": "#FED7E2", "color": "#ED64A6" }
       ],
-      "image": "url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/china.png)"
+      "image": "url(https://www.graphicassociates.com/wp-content/uploads/2019/05/coming-soon.png)"
     }
   ]
 }

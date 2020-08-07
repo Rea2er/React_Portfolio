@@ -5,18 +5,16 @@ import "./App.scss";
 import Project from "./components/Project";
 import Education from "./components/Education";
 import Skills from "./components/Skills";
-import Contact from "./components/Contact";
 
 const App = () => {
   return (
-    <>
+    <div className="app">
       <Navbar />
       <Banner />
       <Education />
       <Skills />
       <Project />
-      <Contact />
-    </>
+    </div>
   );
 };
 
